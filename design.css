@@ -1,0 +1,124 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: Roboto, sans-serif;
+}
+.main{
+    background-color: white;
+    width: 360px;
+    height: 550px;
+    
+    position: relative;
+    margin: 120px auto 0px;
+    padding: 30px 50px;
+    border-radius: 12px 12px 0 0;
+    
+    .skip{
+        justify-content: end;
+        padding: 1rem;
+        a{
+            text-decoration: none;
+            color: rgb(0, 84, 145);
+            font-size: 14px;
+        }
+    }
+    .logo{
+        padding: 10px;
+    }
+    h2{
+        margin-top: 25px;
+        padding-right: 40px;
+        font-size: 18px;
+        color: rgb(46, 46, 46);
+        text-align: center;
+    }
+    .features{
+        padding: 10px;
+        display: flex;
+        justify-content:space-around;
+        border-bottom: 1px solid rgb(242, 242, 242);
+        .feature{
+            line-height: 1.125rem;
+            span{
+                margin-left: 10px;
+                font-size: 12px;
+                color: rgb(46, 46, 46);
+            }
+        }
+    }
+    .logincredits{
+        padding: 2rem 1rem 1rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        input{
+            width: 100%;
+            border: 1px solid rgb(0, 84, 145);
+            border-radius: 6px;
+            font-size: 1.125rem;
+            letter-spacing: 0.2rem;
+            color: rgb(46, 46, 46);
+            padding:0.75rem 0 0.75rem 59px ;
+            font-weight: 700;
+
+        }
+        .hover1{
+            left: 25px;
+            top: 27px;
+            padding: 0 5px;
+            background-color: white;
+            color: rgb(0, 84, 145);
+            font-size: 12px;
+            position: absolute;
+
+        }
+        .hover2{
+            left: 33px;
+            bottom: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            position: absolute;
+        }
+    }
+    
+}
+
+.loginbutton{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    span{
+        color: rgb(102, 102, 102);
+        font-size: 12px;
+        padding: 1rem 0 0.5rem 0;
+        a{ 
+            text-decoration: none;
+            color: rgb(0, 84, 145);
+        }
+
+    }
+    button{
+        background-color: rgb(166, 166, 166);
+        border: 1px solid rgb(166, 166, 166);
+        border-radius: 6px;
+        padding: 0.5rem;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: white;
+        width: 400px;
+        line-height: 1.21rem;
+
+    }
+}
